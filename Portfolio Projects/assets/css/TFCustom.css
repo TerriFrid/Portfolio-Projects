@@ -1,0 +1,17 @@
+﻿body {
+}
+/*FizzBuzz Output Formatting*/
+.fizz {
+    color: blue;
+    font-size: x-large;
+}
+
+.buzz {
+    color: gold;
+    font-size: x-large;
+}
+
+.fizzbuzz {
+    color: green;
+    font-size: xx-large;
+}
