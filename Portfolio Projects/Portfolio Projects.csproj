@@ -79,9 +79,7 @@
     <Content Include="assets\img\portfolio-details-2.jpg" />
     <Content Include="assets\img\portfolio-details-3.jpg" />
     <Content Include="assets\img\portfolio\FizzBuzzOrg.jpg" />
-    <Content Include="assets\img\portfolio\fizzbuzz.png" />
     <Content Include="assets\img\portfolio\FizzBuzz.jpg" />
-    <Content Include="assets\img\portfolio\fizzbuzzpartial.jpg" />
     <Content Include="assets\img\portfolio\portfolio-1.jpg" />
     <Content Include="assets\img\portfolio\portfolio-2.jpg" />
     <Content Include="assets\img\portfolio\portfolio-3.jpg" />
@@ -95,7 +93,6 @@
     <Content Include="assets\img\portfolio\sumofallfears.jpg" />
     <Content Include="assets\img\portfolio\Sunset HillsOrg.jpeg" />
     <Content Include="assets\img\portfolio\Sunset Hills.jpeg" />
-    <Content Include="assets\img\portfolio\tacocatGrey.png" />
     <Content Include="assets\img\portfolio\tacocatphotoOrg.jpg" />
     <Content Include="assets\img\portfolio\tacocatphoto.jpg" />
     <Content Include="assets\img\profile-img1.jpg" />
@@ -103,7 +100,6 @@
     <Content Include="assets\img\hero-bg2.jpg" />
     <Content Include="assets\img\profile-img.jpg" />
     <Content Include="assets\img\hero-bgPumpkin.jpg" />
-    <Content Include="assets\img\RedandBlueFlowers.jpg" />
     <Content Include="assets\img\testimonials\testimonials-1.jpg" />
     <Content Include="assets\img\testimonials\testimonials-2.jpg" />
     <Content Include="assets\img\testimonials\testimonials-3.jpg" />
@@ -227,7 +223,9 @@
     <Content Include="assets\vendor\owl.carousel\LICENSE" />
     <Content Include="assets\vendor\owl.carousel\README.md" />
     <Content Include="assets\vendor\typed.js\typed.min.js.map" />
+    <Content Include="assets\TFridResumeDraft1.docx" />
     <None Include="packages.config" />
+    <None Include="Properties\PublishProfiles\TLFridPortfolioProjects - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
