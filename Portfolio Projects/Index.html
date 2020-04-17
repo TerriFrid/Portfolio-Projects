@@ -30,6 +30,9 @@
     <!--My Custom CSS-->
     <!--<link href="TFCustom.css" rel="stylesheet" />-->
     <style>
+        #btnResume {
+            background-color: brown;
+        }
         .fizz {
             color: blue;
             font-size: x-large;
@@ -43,6 +46,14 @@
         .fizzbuzz {
             color: green;
             font-size: xx-large;
+        }
+
+        .btn-info{
+           
+        }
+
+        .btn-danger {
+            float: right;
         }
     </style>
     <!-- =======================================================
@@ -69,6 +80,7 @@
                         <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>-->
                     <!--<a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>-->
                     <a href="https://www.linkedin.com/in/terri-frid-b87a47132/" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+
                 </div>
             </div>
 
@@ -135,7 +147,7 @@
                  
                     <div class="row">
                         <div class="col-3 offset-4">
-                        <div class="btn-primary text-center">Download a Full Resume</div>
+                        <div id="btnResume "class="btn-primary text-center" >Download a Full Resume</div>
                         </div>
                     </div>
                     
@@ -497,7 +509,7 @@
                             <div class="col-3">
                                 <button class="btn btn-success btn-wide" id="btnFizzBuzzShow">Show Code</button>                                
                             </div>
-                            <div class="col-6">
+                            <div class="col-4 offset-1">
                                 <button class="btn btn-info btn-wide" id="btnFizzBuzzCalc">Calculate </button>
                                 <button class="btn btn-info btn-wide" id="btnFizzBuzzClear">Clear All</button>
                             </div>
@@ -514,7 +526,7 @@
     <!--End Fizz Buzz-->
     <!-- The Tacocat Modal -->
     <div class="modal" id="modalTacoCat">
-        <div class="modal-dialog modal-lg">
+        <div class="modal-dialog modal-lg border-dark">
             <div class="modal-content">
                 <!-- Modal Header -->
                 <div class="modal-header">
@@ -585,7 +597,7 @@
                                 <div class="col-3">
                                     <button class="btn btn-success btn-wide" id="btnTacoCatShow">Show Code</button>
                                 </div>
-                                <div class="col-6">
+                                <div class="col-5 offset-1">
                                     <button class="btn btn-info" id="btnReverse">Reverse Word</button>
                                     <button class="btn btn-info" id="btnTacoCatClear">Clear All    </button>
                                 </div>
@@ -685,7 +697,7 @@
                             <div class="col-3">
                                 <button class="btn btn-success btn-wide" id="btnSunsetShow">Show Code</button>
                             </div>
-                            <div class="col-6">
+                            <div class="col-4 offset-1">
                                 <button class="btn btn-info btn-wide" id="btnSunsetCalc">Calculate</button>
                                 <button class="btn btn-info btn-wide" id="btnSunsetClear">Clear All</button>
                             </div>
@@ -822,13 +834,12 @@
                                     <div class="col-3">
                                         <button class="btn btn-success btn-wide" id="btnSumFearShow">Show Code</button>
                                     </div>
-                                    <div class="col-4">
+                                    <div class="col-4 offset-1">
                                         <button class="btn btn-info btn-wide" id="btnSumFearCalc">Calculate</button>
                                         <button class="btn btn-info btn-wide" id="btnSumFearClear">Clear All</button>
                                     </div>
                                     <div class="col-3">
-                                        <!--How do I left justify?-->
-                                        <button type="button" class="btn btn-danger btn-wide" data-dismiss="modal">Close</button>
+                                       <button type="button" class="btn btn-danger btn-wide" data-dismiss="modal">Close</button>
                                     </div>
                                 </div>
                             </div>
