@@ -30,9 +30,7 @@
     <!--My Custom CSS-->
     <!--<link href="TFCustom.css" rel="stylesheet" />-->
     <style>
-        #btnResume {
-            background-color: brown;
-        }
+        
         .fizz {
             color: blue;
             font-size: x-large;
@@ -48,12 +46,19 @@
             font-size: xx-large;
         }
 
-        .btn-info{
-           
+        .btn-info, btn-info:hover, btn-info:active, btn-info:visited, btn-info:focus {
+            background-color: midnightblue !important;
+            border-color: midnightblue !important;
         }
 
+        .btn-success, btn-success:hover, btn-success:active, btn-success:visited, btn-success:focus {
+            background-color:darkolivegreen !important;
+            border-color: darkolivegreen !important;
+        }
         .btn-danger {
             float: right;
+            background-color: firebrick !important;
+            border-color: firebrick !important;
         }
     </style>
     <!-- =======================================================
@@ -115,7 +120,7 @@
                 <div class="section-title">
                     <h2>About</h2>
                     <p>
-                        I’ve always loved logic puzzles and problem solving, so is it any wonder that I fell into “bleeding-edge” software development early in my career in the 1990s?  While others were honing their AS400 skills, I was sitting at the cool kids table speaking SQL, trying to force VB to be object-oriented, and attempting to create web-based enterprise applications in the mid 90s.   I left the professional world in 2000 and eventually restarted my professional life by successfully adapting my skills to other industries.  Yet, I never stopped pining for my first love – software development. I updated my skills as a full stack .NET developer in 2020.  Now I offer new school skills with old school logic and experience.
+                        I’ve always loved logic puzzles and problem solving, so is it any wonder that I fell into “bleeding-edge” software development early in my career?  While others were honing their AS400 skills, I was sitting at the cool kids table speaking SQL, trying to force VB to be object-oriented, and attempting to create web-based enterprise applications in the mid 90s.   I left the career world in 2000 and eventually restarted my professional life by successfully adapting my skills to other industries.  Yet, I never stopped pining for my first love – software development. I updated my skills as a full stack .NET developer in 2020.  Now I offer new school skills with old school logic and experience.
                     </p>
                 </div>
 
@@ -144,7 +149,7 @@
                     <div class="row">
                         <div class="col-3 offset-4">
                         <div id="btnResume "class="btn-dark text-center rounded" >Download a Full Resume</div>
-                        </div>
+                        
                     </div>
                     
                 </div>
@@ -156,18 +161,19 @@
                             <h4>Terri Frid</h4>
                             <p>
                                 <em>
-                                    I'm a June 2020 graduate Coder Foundry and updated my skill set as fullstack developer using x y z. Previously, I have ten years of experience in information technology focusing of financial systems including
+                                    I'm a June 2020 graduate Coder Foundry and updated my skill set as fullstack developer. Previously, I have ten years of experience in information technology focusing of financial systems including
                                     transitioning from contracts management to senior /lead developer. Additionally, I filled the roles of
                                     business analyst, project manager, and user trainer depending on the needs of the project and team. Outside of the IT world I have
                                     experience in freight forwarding, contracts management, volunteer management, financial advisory, and owned my own birth services business.
                                     I hold current Series 7, General Securities Representative and Series 66, Uniform Combined State Law licenses
                                 </em>
-                            </p>
+                            </p>                              
+                            <br />                              
                             <ul>
                                 <li>103 Tangle Drive, Jamestown, NC 27282</li>
                                 <li>(336) 906-5017</li>
                                 <li>terrifrid@hotmail.com</li>
-                                <li></li>
+                                
                             </ul>
                         </div>
 
@@ -186,10 +192,10 @@
                             <p>
                                 As a registered client associate for 2 advisory practices,
                                 I was responsible for the daily administrative operations including supervising a clerical clerk.
-                                Some of my tasks include assisting clients, screening FA calls, asset movement, equity trades,
+                                Some of my tasks included assisting clients, screening FA calls, equity trades, asset movement,
                                 account maintenance, document creation and tracking, compliance documentation, performance report generation,
-                                and client presentation preparation.  Additionally, I assist with estate processing, research problems,
-                                complete assigned projects, and was the teams’ contact management system and Excel specialist.
+                                and client presentation preparation.  Additionally, I assisted with estate processing, researched problems,
+                                completed assigned projects, and was the teams’ contact management system and Excel specialist.
                             </p>
                         </div>
                         <div class="resume-item">
@@ -236,9 +242,15 @@
                             <p><em>Coopers and Lybrand, Washington, DC</em></p>
                             <p> dBase, Gupta SQL Windows, VB 3, Crystal Reports, SQL Server  Clients - GAO and FNMA</p>
                         </div>
+                        <div class="resume-item">
+                            <h4>Contracts Administrator</h4>
+                            <h5>1990 - 1991</h5>
+                            <p><em>Oracle Complex Systems Corp, Arlington, VA</em></p>
+                            <p> As a contracts administrator with no software tools, I took advantage of free corporate training and used SQL*FORMS v2 along with SQL*Plus to create my own database, user interface, and reports.</p>
+                        </div>
                     </div>
                 </div>
-
+                    , 
             </div>
         </section><!-- End Resume Section -->
         <!-- ======= Portfolio Section ======= -->
